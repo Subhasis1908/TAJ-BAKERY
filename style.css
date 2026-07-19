@@ -59,3 +59,48 @@ header p{
     font-weight:bold;
     color:#e67e22;
 }
+/* ===== TAJ BAKERY - PART B ===== */
+
+button{
+    background:#ff9800;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:15px;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#e68900;
+    transform:scale(1.05);
+}
+
+.item:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+@media (max-width:768px){
+
+header h1{
+    font-size:30px;
+}
+
+.menu{
+    width:95%;
+}
+
+.item{
+    padding:15px;
+}
+
+button{
+    width:100%;
+}
+
+}
